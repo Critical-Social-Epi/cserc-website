@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://criticalsocialepi.org"
 theme = "hugo-apero"
 languageCode = "en"
 title = "Critical Social Epidemiology Research Collaborative"
@@ -13,6 +13,10 @@ paginate = 5
 preserveTaxonomyNames = true
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
 enableEmoji = true
+
+# Permalinks
+[permalinks]
+  people = "/people/:filename/"
 
 [markup]
   defaultMarkdownHandler = "goldmark"
