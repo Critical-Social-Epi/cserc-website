@@ -16,7 +16,7 @@ links:
 - icon: external-link-alt
   icon-pack: fas
   name: DOI
-  url: 10.1016/j.annepidem.2021.06.004
+  url: https://doi.org/10.1016/j.annepidem.2021.06.004
 
 
 ---
