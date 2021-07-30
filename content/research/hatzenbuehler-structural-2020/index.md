@@ -1,0 +1,25 @@
+---
+title: "Structural Stigma and All-Cause Mortality among Sexual Minorities: Differences by Sexual Behavior?"
+date: 2020-01-01
+publishDate: 
+author: "Mark L. Hatzenbuehler, Caroline Rutherford, Sarah McKetta, Seth J. Prins, Katherine M. Keyes"
+publication_types: ["2"]
+abstract: "Using updated data from the General Social Survey/National Death Index (GSS/NDI) study, we examined whether the relationship between structural stigma-measured by aggregating 4 items assessing prejudice towards homosexuality to the community level-and all-cause mortality is present among gay men/lesbian women. Our hypothesis is based on emerging evidence that indicators of structural stigma specific to homosexuality, such as those used in the GSS/NDI, uniquely predict health outcomes among this group. Because the GSS/NDI lacked an identity-based measure of sexual orientation, we tested our hypothesis by employing a strategy that has a relatively high degree of sensitivity and specificity for ascertaining individuals most likely to identify as gay or lesbian: restricting analyses to individuals who reported same-sex sexual partners in the past year. We compared this approach against an alternative strategy, which has weaker specificity for identifying gay men/lesbian women: restricting analyses to individuals who reported any lifetime same-sex sexual behaviors. After controlling for 6 individual-level factors and fixed effects of survey year, structural stigma was associated with mortality among individuals who reported past-year same-sex sexual partners (HR = 1.95, 95% CI: 1.14, 3.31). Further, there was a dose-response relationship with mortality in this group, such that those residing in communities in the highest quartile of structural stigma had the greatest mortality risk, controlling for these same factors (HR = 2.12, 95% CI: 1.03, 4.38). In sensitivity analyses, the effect size for structural stigma ranged from 1.54 to 2.30, indicating a consistent, but small-to-moderate, effect. In contrast, no association between structural stigma and mortality was observed among respondents who reported lifetime same-sex sexual partners, nor among those reporting only opposite-sex sexual partners. This analysis therefore delimits potential boundary conditions of the association between structural stigma related to same-sex sexuality and all-cause mortality, highlighting the conditions under which this association is (and is not) observed."
+featured: false
+publication: "*Social Science & Medicine (1982)*"
+tags: ["Mortality", "Prejudice", "Sexual minorities", "Stigma", "USA"]
+doi: "10.1016/j.socscimed.2019.112463"
+links:
+- icon: file-pdf
+  icon-pack: fas
+  name: Download
+  url: pdf/Reich-disciplining-2020.pdf
+- icon: external-link-alt
+  icon-pack: fas
+  name: DOI
+  url: https://doi.org/10.1016/j.socscimed.2019.112463
+---
+
+## Abstract
+
+Using updated data from the General Social Survey/National Death Index (GSS/NDI) study, we examined whether the relationship between structural stigma-measured by aggregating 4 items assessing prejudice towards homosexuality to the community level-and all-cause mortality is present among gay men/lesbian women. Our hypothesis is based on emerging evidence that indicators of structural stigma specific to homosexuality, such as those used in the GSS/NDI, uniquely predict health outcomes among this group. Because the GSS/NDI lacked an identity-based measure of sexual orientation, we tested our hypothesis by employing a strategy that has a relatively high degree of sensitivity and specificity for ascertaining individuals most likely to identify as gay or lesbian: restricting analyses to individuals who reported same-sex sexual partners in the past year. We compared this approach against an alternative strategy, which has weaker specificity for identifying gay men/lesbian women: restricting analyses to individuals who reported any lifetime same-sex sexual behaviors. After controlling for 6 individual-level factors and fixed effects of survey year, structural stigma was associated with mortality among individuals who reported past-year same-sex sexual partners (HR = 1.95, 95% CI: 1.14, 3.31). Further, there was a dose-response relationship with mortality in this group, such that those residing in communities in the highest quartile of structural stigma had the greatest mortality risk, controlling for these same factors (HR = 2.12, 95% CI: 1.03, 4.38). In sensitivity analyses, the effect size for structural stigma ranged from 1.54 to 2.30, indicating a consistent, but small-to-moderate, effect. In contrast, no association between structural stigma and mortality was observed among respondents who reported lifetime same-sex sexual partners, nor among those reporting only opposite-sex sexual partners. This analysis therefore delimits potential boundary conditions of the association between structural stigma related to same-sex sexuality and all-cause mortality, highlighting the conditions under which this association is (and is not) observed.

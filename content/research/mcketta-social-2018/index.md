@@ -1,0 +1,25 @@
+---
+title: "Social Sequencing to Determine Patterns in Health and Work-Family Trajectories for U.S. Women, 1968-2013"
+date: 2018-01-01
+publishDate: 
+author: "Sarah McKetta, Seth J. Prins, Jonathan Platt, Lisa M. Bates, Katherine Keyes"
+publication_types: ["2"]
+abstract: "Background: Women's social roles (partnership, parenthood, and worker status) are associated with health, with more roles being associated with lower mortality rates. Few studies have examined social roles using a lifecourse perspective to understand how changing role dynamics affect health over time. Sequence analysis is one analytic technique for examining social trajectories. Methods: Work-family trajectories were determined using social sequence analysis. We estimated mortality using age-standardized mortality rates and Poisson regression and examined the impact of personal income as a mediator. Results: We identified 5 trajectory types according to probability distributions of work/marriage/child-rearing status and descriptions in previous research: Non-working, married, later-mothers; working divorced mothers; working and non-working, never-married mothers; working, never-married non-mothers; and non-working, married earlier-mothers. Our reference group, non-working, married, later-mothers had the lowest mortality rates (1.47 per 1000 person-years). Adjusting for confounders, timing of childbearing did not impact mortality rates for married, non-working women. Working, never-married non-mothers and working and non-working, never-married mothers had the highest adjusted rates of mortality (RR = 1.81 and 1.57, respectively) these effects were attenuated slightly by the addition of household income in the model. Mortality rates for other trajectory groups were not significantly elevated in adjusted models. Conclusions: Mortality rates vary by work-family trajectories, but timing of childbearing does not meaningfully impact risk among women in this population, likely because few of the women who were married and had children also worked full-time. Household income has some mediating effect among those at highest risk of early mortality."
+featured: false
+publication: "*SSM - population health*"
+doi: "10.1016/j.ssmph.2018.10.003"
+categories: ["Class conflict and public health"]
+links:
+- icon: file-pdf
+  icon-pack: fas
+  name: Download
+  url: pdf/mcketta-social-2018.pdf
+- icon: external-link-alt
+  icon-pack: fas
+  name: DOI
+  url: https://doi.org/10.1016/j.ssmph.2018.10.003
+---
+
+## Abstract
+
+**Background**: Women's social roles (partnership, parenthood, and worker status) are associated with health, with more roles being associated with lower mortality rates. Few studies have examined social roles using a lifecourse perspective to understand how changing role dynamics affect health over time. Sequence analysis is one analytic technique for examining social trajectories. **Methods**: Work-family trajectories were determined using social sequence analysis. We estimated mortality using age-standardized mortality rates and Poisson regression and examined the impact of personal income as a mediator. **Results**: We identified 5 trajectory types according to probability distributions of work/marriage/child-rearing status and descriptions in previous research: Non-working, married, later-mothers; working divorced mothers; working and non-working, never-married mothers; working, never-married non-mothers; and non-working, married earlier-mothers. Our reference group, non-working, married, later-mothers had the lowest mortality rates (1.47 per 1000 person-years). Adjusting for confounders, timing of childbearing did not impact mortality rates for married, non-working women. Working, never-married non-mothers and working and non-working, never-married mothers had the highest adjusted rates of mortality (RR = 1.81 and 1.57, respectively) these effects were attenuated slightly by the addition of household income in the model. Mortality rates for other trajectory groups were not significantly elevated in adjusted models. **Conclusions**: Mortality rates vary by work-family trajectories, but timing of childbearing does not meaningfully impact risk among women in this population, likely because few of the women who were married and had children also worked full-time. Household income has some mediating effect among those at highest risk of early mortality.

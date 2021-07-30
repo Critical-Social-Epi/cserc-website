@@ -1,0 +1,202 @@
+---
+date: 
+draft: false
+author: Sandhya Kajeepeta
+excerpt: Figures developed for a December 31 commentary in the New York Daily News about COVID-19 in New York City Jails. We argue that the city's current response is far worse than its inadequate spring response, placing incarcerated people, their families, correctional staff, and the community at large at grave risk. The New York City jail population continues to increase daily, approaching pre-pandemic levels, and city officials are taking no action to reduce populations or implement a rigorous testing regime. Mass releases and mass testing are necessary as we face a second outbreak in New York City jails.
+subtitle: ""
+title: COVID in NYC Jails
+weight: 1
+---
+
+The figures below were developed for a [December 31 commentary in the New York Daily News](https://www.nydailynews.com/opinion/ny-oped-to-save-lives-jail-mass-releases-mass-testing-20201231-wie2cxfmu5g5xorzyvfpbdub4i-story.html), by Seth J. Prins, Sandhya Kajeepeta, Brad Maurer, and Kayla Simpson, about COVID-19 in New York City Jails. We argue that the city's current response is far worse than its inadequate spring response, placing incarcerated people, their families, correctional staff, and the community at large at grave risk. The New York City jail population continues to increase daily, approaching pre-pandemic levels, and city officials are taking no action to reduce populations or implement a rigorous testing regime. Mass releases and mass testing are necessary as we face a second outbreak in New York City jails.
+
+*Figures prepared by Sandhya Kajeepeta*
+
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(readr)
+library(ggplot2)
+
+#Load in data from DOHMH with COVID daily case counts + BOC daily inmate pop
+df <- read.csv("./data-by-day_update_3-9-21.csv")
+#Reformat date
+df$date_of_interest <- as.Date(df$date_of_interest, format= "%m/%d/%y")
+#Drop days with no inmate data
+df <- df %>% filter(!is.na(INM_POP))
+#Plot 7-day average case count and daily inmate pop
+
+```
+
+
+## Figure 1. 7-day average new COVID cases in NYC overall and NYC total jail population over time
+```{r, echo=FALSE, warning=FALSE, message=FALSE, error=FALSE, fig.width=10}
+ggplot(data=df, aes(x=date_of_interest)) +
+  geom_line(aes(y=CASE_COUNT_7DAY_AVG, color="7-day avg. new COVID cases in NYC")) +
+  geom_line(aes(y=(INM_POP*2)-6000, color="NYC jail population")) +
+  ylab("7-day avg. new COVID cases in NYC") +
+  geom_text(aes(y=CASE_COUNT_7DAY_AVG, label=ifelse(date_of_interest=='2020-04-08', CASE_COUNT_7DAY_AVG, '')),hjust=0, vjust=-.5, show.legend = FALSE, size=4.5, color="navy") +
+  geom_point(aes(x=date_of_interest[date_of_interest=='2020-04-08'], y=CASE_COUNT_7DAY_AVG[date_of_interest=='2020-04-08']), color="navy") +
+  geom_text(aes(y=(INM_POP*2)-6000, label=ifelse(date_of_interest=='2020-04-29', INM_POP, '')),hjust=1, vjust=1.5, show.legend = FALSE, size=4.5, color="#00a5ff") +
+  geom_point(aes(x=date_of_interest[date_of_interest=='2020-04-29'], y=INM_POP[date_of_interest=='2020-04-29']*2-6000), colour = "#00a5ff") +
+  geom_text(aes(y=CASE_COUNT_7DAY_AVG, label=ifelse(date_of_interest=='2021-1-8', CASE_COUNT_7DAY_AVG, '')),hjust=.5, vjust=-1, show.legend = FALSE, size=4.5, color="navy") +
+  geom_point(aes(x=date_of_interest[date_of_interest=='2021-1-8'], y=CASE_COUNT_7DAY_AVG[date_of_interest=='2021-1-8']), color="navy") +
+  geom_text(aes(y=(INM_POP*2)-6000, label=ifelse(date_of_interest=='2021-2-26', INM_POP, '')),hjust=.5, vjust=-.5, show.legend = FALSE, size=4.5, color="#00a5ff") +
+  geom_point(aes(x=date_of_interest[date_of_interest=='2021-2-26'], y=INM_POP[date_of_interest=='2021-2-26']*2-6000), colour = "#00a5ff") +
+  xlab("") +
+  scale_x_date(date_labels="%b",date_breaks  ="1 month", limits=as.Date(c('2020-03-01', '2021-3-9'))) +
+  scale_y_continuous(sec.axis = sec_axis(~ (. + 6000) / 2, name = "NYC jail population \n", breaks=seq(3000,6000, by=250)), breaks = seq(0, 5500, by = 500), limits=c(0,5500), minor_breaks = NULL) +
+  #theme_light() +
+  scale_color_manual(values=c("navy", "#00a5ff")) +
+  geom_vline(xintercept=as.Date('2020-07-02'), colour="#d11141", linetype="dashed", size=1) +
+  geom_text(aes(x=as.Date('2020-07-02'), label="\nBail reform rollback", y=3500), angle=90, size=5, color="#d11141") +
+  theme(
+    panel.background = element_rect(fill = "#F4F4F4", color = NA),
+    plot.background = element_rect(fill = "#F4F4F4"),
+    legend.position = "bottom",
+    legend.title = element_blank(),
+    legend.background = element_rect(fill = "#F4F4F4"),
+    axis.title.y.left = element_text(color="navy", size=15),
+    axis.text.y.left = element_text(color="navy"),
+    axis.title.y.right = element_text(color = "#00a5ff"),
+    axis.text.y.right = element_text(color = "#00a5ff"),
+    axis.title.x = element_blank(),
+    text = element_text(size = 20),
+    plot.margin = margin(0, 0, 0, 0, "cm"),
+    title = element_text(size=15),
+    plot.caption = element_text(hjust=0,size=13),
+    plot.subtitle = element_text(size=13)
+  )
+```
+
+The NYC jail population is approaching pre-pandemic levels and is up nearly 1,000 people since the bail reform rollback took effect on July 2 (light blue line). This increase is taking place as NYC is facing a second wave of COVID cases (dark blue line). 
+
+(Sources: [NYC Department of Health and Mental Hygiene](https://github.com/nychealth/coronavirus-data/blob/master/trends/data-by-day.csv) & [NYC Board of Correction COVID-19 Updates](https://www1.nyc.gov/site/boc/covid-19.page))
+
+```{r, include=FALSE}
+####Using DOC Open Data files: https://data.cityofnewyork.us/Public-Safety/Daily-Inmates-In-Custody/7479-ugqb#__sid=js0
+# https://data.cityofnewyork.us/Public-Safety/Inmate-Admissions/6teu-xtgp#__sid=js0
+# https://data.cityofnewyork.us/Public-Safety/Inmate-Discharges/94ri-3ium#__sid=js0
+
+#Load in datasets
+
+releases <- read.csv("./DOC Open Data/3-9 update/Inmate_Discharges.csv")
+admissions <- read.csv("./DOC Open Data/3-9 update/Inmate_Admissions.csv")
+
+
+#Reformat date
+
+admissions$ADMITTED_DT <- as.Date(admissions$ADMITTED_DT, format= "%m/%d/%Y")
+releases$DISCHARGED_DT <- as.Date(releases$DISCHARGED_DT, format = "%m/%d/%Y")
+
+
+#Aggregate at date and count
+
+admissions <- admissions %>% group_by(ADMITTED_DT) %>% summarize(admissions = n())
+releases <- releases %>% group_by(DISCHARGED_DT) %>% summarize(releases = n())
+
+#Join together
+
+names(admissions)[names(admissions)=="ADMITTED_DT"] <- "Date"
+names(releases)[names(releases)=="DISCHARGED_DT"] <- "Date"
+admrel2 <- admissions %>% left_join(releases, by="Date")
+
+
+#Filter days to Nov 2019 and on
+
+admrel2 <- admrel2 %>% filter(Date > "2019-10-28")
+
+
+
+#Using 7-day rolling average
+
+library(zoo)
+admrel2 <- admrel2 %>% arrange(Date) %>% mutate(adm7day = rollmean(admissions, k = 7, fill = NA), rel7day = rollmean(releases, k=7, fill=NA))
+```
+
+## Figure 2. 7-day average new admissions to and releases from NYC jails over time
+```{r, echo=FALSE, warning=FALSE, message=FALSE, error=FALSE, fig.width=10}
+ ggplot(data=admrel2, aes(x=Date)) +
+  geom_line(aes(y=adm7day, color="7-day avg. new admissions")) +
+  geom_line(aes(y=rel7day, color="7-day avg. releases")) +
+  ylab("") +
+  xlab("") +
+  scale_y_continuous(breaks = seq(0, 120, by = 10), limits=c(0,120), minor_breaks = NULL) +
+  scale_x_date(date_labels="%b",date_breaks  ="1 month") +
+  geom_vline(xintercept=as.Date('2020-07-02'), colour="#d11141", linetype="dashed", size=1) +
+  geom_text(aes(x=as.Date('2020-07-02'), label="\nBail reform rollback", y=77.5), angle=90, size=5, color="#d11141") +
+   geom_vline(xintercept=as.Date('2020-01-01'), colour="#d11141", linetype="dashed", size=1) +
+  geom_text(aes(x=as.Date('2020-01-01'), label="\nBail reform takes effect", y=20), angle=90, size=5, color="#d11141") +
+   geom_vline(xintercept=as.Date('2020-03-12'), colour="#d11141", linetype="dashed", size=1) +
+  geom_text(aes(x=as.Date('2020-03-12'), label="NYC state of emergency\n", y=23), angle=90, size=5, color="#d11141") +
+   #eom_text(aes(x=as.Date('2020-03-12'), label="\nstate of emergency", y=20), angle=90, size=5, color="#d11141") +
+  #theme_light() +
+  guides(color=guide_legend(title="")) +
+  theme(
+    panel.background = element_rect(fill = "#F4F4F4", color = NA),
+    plot.background = element_rect(fill = "#F4F4F4"),
+    legend.position = "bottom",
+    legend.title = element_blank(),
+    legend.background = element_rect(fill = "#F4F4F4"),
+    axis.title.x = element_blank(),
+    plot.margin = margin(0, 0, 0, 0, "cm"),
+    text = element_text(size = 20),
+    title = element_text(size=15),
+    plot.caption = element_text(hjust=0, size=13),
+    plot.subtitle = element_text(size=13)
+  )
+```
+
+Since the bail reform rollback, new jail addmissions (orange line) have consistently outpaced releases (green line), resulting in higher jail populations.  
+
+(Source: [NYC Open Data](https://data.cityofnewyork.us/Public-Safety/Inmate-Admissions/6teu-xtgp#__sid=js0))
+
+## Figure 3. Incarcerated people designated as "Likely Exposed but Asymptomatic" and new COVID cases in NYC jails over time
+```{r, echo=FALSE, warning=FALSE, message=FALSE, error=FALSE, fig.width=10}
+ggplot(data=df, aes(x=date_of_interest)) +
+  geom_line(aes(y=NEW_COVID_JAIL*15, color="New COVID cases in NYC jails (staff and incarcerated people)"), na.rm=TRUE) +
+  geom_line(aes(y=LIK_EXP_ASYMP, color='"Likely Exposed but Asymptomatic"')) +
+  ylab('"Likely Exposed but Asymptomatic"') +
+  geom_text(aes(y=LIK_EXP_ASYMP, label=ifelse(date_of_interest=='2020-04-17', LIK_EXP_ASYMP, '')),hjust=-0.1, vjust=0.1, show.legend = FALSE, size=4.5, color="#00798c") +
+  geom_point(aes(x=date_of_interest[date_of_interest=='2020-04-17'], y=LIK_EXP_ASYMP[date_of_interest=='2020-04-17']), color="#00798c") +
+  geom_text(aes(y=NEW_COVID_JAIL*15, label=ifelse(date_of_interest=='2020-04-07', NEW_COVID_JAIL, '')),hjust=0, vjust=-.5, show.legend = FALSE, size=4.5, color="dark magenta") +
+  geom_point(aes(x=date_of_interest[date_of_interest=='2020-04-07'], y=NEW_COVID_JAIL[date_of_interest=='2020-04-07']*15), colour = "dark magenta") +
+  geom_text(aes(y=LIK_EXP_ASYMP, label=ifelse(date_of_interest=='2021-2-11', LIK_EXP_ASYMP, '')),hjust=0, vjust=-.5, show.legend = FALSE, size=4.5, color="#00798c") +
+  geom_point(aes(x=date_of_interest[date_of_interest=='2021-2-11'], y=LIK_EXP_ASYMP[date_of_interest=='2021-2-11']), color="#00798c") +
+  geom_text(aes(y=NEW_COVID_JAIL*15, label=ifelse(date_of_interest=='2021-2-18', NEW_COVID_JAIL, '')),hjust=-0.2, vjust=.1, show.legend = FALSE, size=4.5, color="dark magenta") +
+  geom_point(aes(x=date_of_interest[date_of_interest=='2021-2-18'], y=NEW_COVID_JAIL[date_of_interest=='2021-2-18']*15), colour = "dark magenta") +
+  xlab("") +
+  scale_x_date(date_labels="%b",date_breaks  ="1 month", limits=as.Date(c('2020-03-01', '2021-3-9'))) +
+  #theme_light() +
+  guides(color=guide_legend(title="")) +
+  scale_y_continuous(sec.axis = sec_axis(~ . / 15, name = "New COVID cases in NYC jails \n", breaks=seq(0,200, by=25)), breaks=seq(0,3000, by=250), minor_breaks=NULL) +
+  scale_color_manual(values=c("#00798c", "dark magenta")) +
+  theme(
+    panel.background = element_rect(fill = "#F4F4F4", color = NA),
+    plot.background = element_rect(fill = "#F4F4F4"),
+    legend.position = "bottom",
+    legend.title = element_blank(),
+    legend.background = element_rect(fill = "#F4F4F4"),
+    axis.title.y.left = element_text(color="#00798c", size=14),
+    axis.text.y.left = element_text(color="#00798c"),
+    axis.title.y.right = element_text(color = "dark magenta", size=14),
+    axis.text.y.right = element_text(color = "dark magenta"),
+    axis.title.x = element_blank(),
+    plot.caption = element_text(hjust=0, size=13),
+    text = element_text(size = 20),
+    legend.text = element_text(size=14),
+    title = element_text(size=15),
+    plot.subtitle = element_text(size=13)
+  )
+```
+
+The number of incarcerated people designated as "likely exposed but asymptomatic" (teal line") and the number of new COVID cases in NYC jails (purple line) have dramatically increased from mid-November to late December, suggesting a second COVID jail outbreak has already begun in NYC. 
+
+(Source: [NYC Board of Correction COVID-19 Updates](https://www1.nyc.gov/site/boc/covid-19.page))
+
+## Figure 4. People Detained Pretrial
+
+![](newplot_5.png)
+The pretrial detention population in NYC jails is higher now than it was pre-pandemic: 3,268 people were detained pretrial on March 1 compared to 3,704 people on December 30.
+
+(Source: [Vera Institute of Justice JailViz 2.0](https://greaterjusticeny.vera.org/nycjail/))

@@ -1,0 +1,54 @@
+---
+date: "2021-01-01"
+draft: false
+excerpt: 
+links:
+- icon: file-pdf
+  icon-pack: fas
+  name: Download
+  url: pdf/Prins Visible Security Measures in Schools.pdf
+subtitle: 
+title: Visible security measures in schools
+bibliography: vis_security.bib
+csl: american-medical-association.csl
+link-citations: true
+weight: 1
+categories: ["Decarceral public health"]
+---
+
+## Visible Security Measures in Schools: Research Summary
+
+Visible security measures in schools include metal detectors, cameras, and police officers. Nearly 100,000 New York City students walk through airport-style security every day. Ostensibly implemented to increase school safety, critics argue that these measures fail to do so, and instead criminalize students for minor misbehaviors. They see school securitization as part of a broader trend of neoliberal governance to merely manage, rather than repair, the consequences of disinvestment, economic austerity, and unprecedented social inequality in poor and working-class communities, particularly communities of color. In short, research finds that visible security measures like metal detectors do not improve school safety or academic achievement, but may increase student anxiety and stress. 
+
+
+## Visible security measures…
+
+### …do not make schools safer, and are discriminatorily utilized
+
+- A review of 15 years of research from across the country, including NYC, concluded that metal detectors have no effect on reducing injuries, deaths, or threats of violence on school grounds. Moreover, these technologies cannot distinguish between different objects made of metal—such determinations must be made by trained employees. [@hankin_impacts_2011; @schwartz_role_2016]
+
+- A nation-wide representative survey of over 6,000 students found that metal detectors and security guards consistently failed at reducing victimization.[@schreck_trouble_2003]
+
+- A survey of principals and administrators from over 10,000 schools across the country found that some patterns of school security utilization were associated with increased exposure to crime and violence at school, though this may simply be due to increased detection.[@tanner-smith_adding_2018] 
+
+- A national survey of principals and administrators from over 2,500 schools across the country found that, among high-violence schools, those with majority-minority enrollments were much more likely to conduct metal detector searches than majority white schools.[@gastic_disproportionality_2015] 
+
+### …do not increase academic achievement
+
+- A national survey of nearly 40,000 students found no evidence that visible security measures have beneficial effects on academic outcomes.[@tanner-smith_visible_2016]
+
+- A survey of principals and administrators from over 10,000 schools found that some security utilization patterns have modest detrimental effects on adolescents’ academic outcomes, particularly the heavy surveillance patterns observed in high schools serving predominantly low socioeconomic students.[@tanner-smith_visible_2016]
+
+- A nationally representative survey of 6,000 students found that school security measures are associated with poorer academic outcomes among youth who have experienced multiple victimizations.[@gardella_academic_2016]
+
+### …may increase fear, stress, and anxiety
+
+- Data from numerous large, national surveys show that visible security measures, including metal detectors, often make students feel less safe and more fearful of harm.[@gastic_metal_2011; perumean-chaney_students_2013; @bachman_predicting_2011]
+
+- There is some evidence from occupational health research that workplace surveillance increases stress, anxiety, and psychological tension among adults.[@smith_employee_1992]
+
+- The American Psychological Association’s Zero Tolerance Task Force found that visible security measures are often used in conjunction with zero tolerance policies, which have been shown to be developmentally inappropriate for youth. Zero tolerance policies may create, enhance, or accelerate negative mental health outcomes by increasing alienation, anxiety, rejection, and breaking of healthy adult bonds.[@american_psychological_association_zero_tolerance_task_force_are_2008]
+
+## References
+
+

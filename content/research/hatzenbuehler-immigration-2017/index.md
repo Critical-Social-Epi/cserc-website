@@ -1,0 +1,25 @@
+---
+title: "Immigration Policies and Mental Health Morbidity among Latinos: A State-Level Analysis"
+date: 2017-01-01
+publishDate: 
+author: "Mark L. Hatzenbuehler, Seth J. Prins, Morgan Flake, Morgan Philbin, M. Somjen Frazer, Daniel Hagen, Jennifer Hirsch"
+publication_types: ["2"]
+abstract: "RATIONALE: Despite abundant state-level policy activity in the U.S. related to immigration, no research has examined the mental health impact of the overall policy climate for Latinos, taking into account both inclusionary and exclusionary legislation. OBJECTIVE: To examine associations between the state-level policy climate related to immigration and mental health outcomes among Latinos. METHODS: We created a multi-sectoral policy climate index that included 14 policies in four domains (immigration, race/ethnicity, language, and agricultural worker protections). We then examined the relation of this policy climate index to two mental health outcomes (days of poor mental health and psychological distress) among Latinos from 31 states in the 2012 Behavioral Risk Factor Surveillance System (BRFSS), a population-based health survey of non-institutionalized individuals aged 18 years or older. RESULTS: Individuals in states with a more exclusionary immigration policy climate had higher rates of poor mental health days than participants in states with a less exclusionary policy climate (RR: 1.05, 95% CI: 1.00, 1.10). The association between state policies and the rate of poor mental health days was significantly higher among Latinos versus non-Latinos (RR for interaction term: 1.03, 95% CI: 1.01, 1.06). Furthermore, Latinos in states with a more exclusionary policy climate had 1.14 (95% CI: 1.04, 1.25) times the rate of poor mental health days than Latinos in states with a less exclusionary policy climate. Results were robust to individual- and state-level confounders. Sensitivity analyses indicated that results were specific to immigration policies, and not indicators of state political climate or of residential segregation. No relationship was observed between the immigration policy index and psychological distress. CONCLUSION: These results suggest that restrictive immigration policies may be detrimental to the mental health of Latinos in the United States."
+featured: false
+publication: "*Social Science & Medicine (1982)*"
+tags: ["Adult", "Aged", "Behavioral Risk Factor Surveillance System", "Cross-Sectional Studies", "Discrimination", "Ethnic Groups", "Female", "Hispanic Americans", "Humans", "Immigration policies", "Jurisprudence", "Latino health", "Male", "Mental Disorders", "Mental health", "Middle Aged", "Morbidity", "Public Policy", "Social determinants", "Stigma", "Surveys and Questionnaires", "United States"]
+doi: "10.1016/j.socscimed.2016.11.040"
+links:
+- icon: file-pdf
+  icon-pack: fas
+  name: Download
+  url: pdf/hatzenbuehler-immmigration-2017.pdf
+- icon: external-link-alt
+  icon-pack: fas
+  name: DOI
+  url: https://doi.org/10.1016/j.socscimed.2016.11.040
+---
+
+## Abstract
+
+RATIONALE: Despite abundant state-level policy activity in the U.S. related to immigration, no research has examined the mental health impact of the overall policy climate for Latinos, taking into account both inclusionary and exclusionary legislation. OBJECTIVE: To examine associations between the state-level policy climate related to immigration and mental health outcomes among Latinos. METHODS: We created a multi-sectoral policy climate index that included 14 policies in four domains (immigration, race/ethnicity, language, and agricultural worker protections). We then examined the relation of this policy climate index to two mental health outcomes (days of poor mental health and psychological distress) among Latinos from 31 states in the 2012 Behavioral Risk Factor Surveillance System (BRFSS), a population-based health survey of non-institutionalized individuals aged 18 years or older. RESULTS: Individuals in states with a more exclusionary immigration policy climate had higher rates of poor mental health days than participants in states with a less exclusionary policy climate (RR: 1.05, 95% CI: 1.00, 1.10). The association between state policies and the rate of poor mental health days was significantly higher among Latinos versus non-Latinos (RR for interaction term: 1.03, 95% CI: 1.01, 1.06). Furthermore, Latinos in states with a more exclusionary policy climate had 1.14 (95% CI: 1.04, 1.25) times the rate of poor mental health days than Latinos in states with a less exclusionary policy climate. Results were robust to individual- and state-level confounders. Sensitivity analyses indicated that results were specific to immigration policies, and not indicators of state political climate or of residential segregation. No relationship was observed between the immigration policy index and psychological distress. CONCLUSION: These results suggest that restrictive immigration policies may be detrimental to the mental health of Latinos in the United States.
