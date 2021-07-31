@@ -3,7 +3,7 @@ author:
 categories:
 date: ""
 draft: false
-excerpt: "Ruth Shefner is a doctoral student in the Department of Sociomedical Sciences a predoctoral fellow in the NIDA T32 training program in Substance Use, HIV, and the Criminal Justice System"
+excerpt: "Ruth Shefner is a doctoral student in the Department of Sociomedical Sciences and a predoctoral fellow in the NIDA T32 training program in Substance Use, HIV, and the Criminal Justice System"
 layout: single
 subtitle: 
 tags:
