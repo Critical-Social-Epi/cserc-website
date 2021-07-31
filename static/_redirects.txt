@@ -1,0 +1,3 @@
+http://criticalsocialepidemiology.com/*    https://criticalsocialepi.org  301!
+http://criticalsocialepidemiology.org/*    https://criticalsocialepi.org  301!
+http://criticalsocialepi.com/*    https://criticalsocialepi.org  301!
