@@ -8,7 +8,7 @@ layout: single
 subtitle: 
 tags:
 title: "Zoe Verzani"
-subtitle: "MPH Student, Department of Epidmeiology, Columbia University Mailmand School of Public Health"
+subtitle: "MPH Student, Department of Epidmeiology, Columbia University Mailman School of Public Health"
 weight: 4
 ---
 
