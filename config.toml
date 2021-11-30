@@ -74,11 +74,11 @@ enableEmoji = true
 
   # Configuration of https://utteranc.es/ for comments
   [params.utterances]
-    use_utterances = true
-    repo_name = "apreshill/apero"
-    issue_term = "pathname" # url, pathname, or title
-    theme = "boxy-light"
-    label = "comments :crystal_ball:"
+    use_utterances = false
+    repo_name = ""
+    issue_term = "" # url, pathname, or title
+    theme = ""
+    label = ""
 
   # Social icons may appear on homepage and in site header or footer
   # Configure show/hide above - add as many as you like below

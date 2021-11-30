@@ -10,7 +10,6 @@ Our research integrates advanced epidemiologic methods with sociological, critic
 layout: single
 subtitle: 
 tags:
-- hugo-site
 title: Decarceral Public Health
 ---
 
