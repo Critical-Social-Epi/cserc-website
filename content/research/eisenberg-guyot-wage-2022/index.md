@@ -1,6 +1,6 @@
 ---
 title: "Wage theft and life expectancy inequities in the United States: A simulation study"
-date: 2022-05-01
+date: 2022-04-01
 publishDate: 
 author: "Jerzy Eisenberg-Guyot, Katherine M. Keyes, Seth J. Prins, Sarah McKetta, Stephen J. Mooney, Lisa M. Bates, Melanie M. Wall, Jonathan M. Platt"
 publication_types: ["2"]

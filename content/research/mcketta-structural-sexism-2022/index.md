@@ -1,6 +1,6 @@
 ---
 title: "Structural sexism and Women's alcohol use in the United States, 1988–2016"
-date: 2022-05-01
+date: 2022-04-01
 publishDate: 
 author: "Sarah McKetta, Seth J. Prins, Deborah Hasin, Megan E. Patrick, Katherine M. Keyes"
 publication_types: ["2"]
