@@ -9,7 +9,7 @@ subtitle:
 tags:
 title: "Daniel Aldana Cohen"
 subtitle: "Assistant Professor of Sociology, University of California, Berkeley"
-weight: 6
+weight: 3
 ---
 
 [Daniel Aldana Cohen](https://sociology.berkeley.edu/faculty/daniel-aldana-cohen) is an Assistant Professor of Sociology at the University of California, Berkeley. He directs the Socio-Spatial Climate Collaborative, or (SC)2, and co-directs the [climate + community project](http://climateandcommunity.org/). He is a [CIFAR Azrieli Global Scholar](https://cifar.ca/cifarnews/2021/05/26/meet-the-newest-cifar-azrieli-global-scholars-nineteen-outstanding-early-career-researchers-to-join-six-cifar-research-programs/) (2021-23). In 2018-19, he was a [Member of the Institute for Advanced Study](https://www.ias.edu/scholars/daniel-aldana-cohen) in Princeton, New Jersey. He is the co-author of [*A Planet to Win: Why We Need a Green Deal*](https://www.versobooks.com/books/3107-a-planet-to-win) (Verso 2019). He is currently completing a book project called *Street Fight: Climate Change and Inequality in the 21st Century City*, under contract with Princeton University Press.
