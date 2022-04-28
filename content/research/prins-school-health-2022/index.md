@@ -12,7 +12,7 @@ links:
 - icon: file-pdf
   icon-pack: fas
   name: Download
-  url: pdf/prins-school-health-2021.pdf
+  url: pdf/prins-school-health-2022.pdf
 - icon: external-link-alt
   icon-pack: fas
   name: DOI
