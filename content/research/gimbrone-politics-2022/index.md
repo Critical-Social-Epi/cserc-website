@@ -1,6 +1,6 @@
 ---
 title: "The politics of depression: Diverging trends in internalizing symptoms among US adolescents by political beliefs"
-date: 2022-12-01
+date: 2022-01-02
 publishDate: 
 author: "Catherine Gimbrone, Lisa M. Bates, Seth J. Prins, Katherine M. Keyes"
 publication_types: ["2"]

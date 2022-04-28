@@ -1,6 +1,6 @@
 ---
 title: "School Health Predictors of the School-to-Prison Pipeline: Substance Use and Developmental Risk and Resilience Factors"
-date: 2022-11-24
+date: 2022-01-01
 publishDate: 
 author: "Seth J. Prins, Sandhya Kajeepeta, Mark L. Hatzenbuehler, Charles C. Branas, Lisa R. Metsch, Stephen T. Russell"
 publication_types: ["2"]
