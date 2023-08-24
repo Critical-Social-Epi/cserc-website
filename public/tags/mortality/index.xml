@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mortality on Critical Social Epidemiology Research Collaborative</title>
+    <link>https://criticalsocialepi.org/tags/mortality/</link>
+    <description>Recent content in Mortality on Critical Social Epidemiology Research Collaborative</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://criticalsocialepi.org/tags/mortality/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Relational Social Class, Self-Rated Health, and Mortality in the United States</title>
+      <link>https://criticalsocialepi.org/research/eisenberg-guyot-relational-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://criticalsocialepi.org/research/eisenberg-guyot-relational-2020/</guid>
+      <description>Abstract     Applying a relational class theory based on property ownership, authority, and credentials/skill, we analyzed the relationship between class, self-rated health (SRH), and mortality using the 1972–2016 General Social Survey. In a simple measure of class, we assigned respondents to worker, manager, petty bourgeois, or capitalist classes. In a complex measure, we subdivided workers (less-skilled/more-skilled), managers (low/high), and capitalists (small/large). Next, we estimated trends in class structure.</description>
+    </item>
+    
+    <item>
+      <title>Structural Stigma and All-Cause Mortality among Sexual Minorities: Differences by Sexual Behavior?</title>
+      <link>https://criticalsocialepi.org/research/hatzenbuehler-structural-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://criticalsocialepi.org/research/hatzenbuehler-structural-2020/</guid>
+      <description>Abstract     Using updated data from the General Social Survey/National Death Index (GSS/NDI) study, we examined whether the relationship between structural stigma-measured by aggregating 4 items assessing prejudice towards homosexuality to the community level-and all-cause mortality is present among gay men/lesbian women. Our hypothesis is based on emerging evidence that indicators of structural stigma specific to homosexuality, such as those used in the GSS/NDI, uniquely predict health outcomes among this group.</description>
+    </item>
+    
+  </channel>
+</rss>

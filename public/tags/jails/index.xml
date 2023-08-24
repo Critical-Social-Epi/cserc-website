@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jails on Critical Social Epidemiology Research Collaborative</title>
+    <link>https://criticalsocialepi.org/tags/jails/</link>
+    <description>Recent content in jails on Critical Social Epidemiology Research Collaborative</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://criticalsocialepi.org/tags/jails/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>County Jail Incarceration Rates and County Mortality Rates in the United States, 1987– 2016</title>
+      <link>https://criticalsocialepi.org/research/kajeepeta-county-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://criticalsocialepi.org/research/kajeepeta-county-2020/</guid>
+      <description>Abstract     Objectives. To evaluate the relationship between changes in county jail incarceration rates and subsequent county mortality rates across the United States. Methods. We analyzed county jail incarceration rates from the Bureau of Justice Statistics from 1987 to 2016 for 1884 counties and mortality rates from the National Vital Statistics System. We fit 1-year-lagged quasi-Poisson 2-way fixed-effects models, controlling for unmeasured stable county characteristics, and measured time-varying confounders, including county poverty and crime rates.</description>
+    </item>
+    
+  </channel>
+</rss>
