@@ -2,7 +2,7 @@
 action_label: Read More &rarr;
 action_link: /project
 action_type: text
-description: The Critical Social Epidemiology Research Collaborative (CSE), in the Department of Epidemiology at Columbia University's Mailman School of Public Health, studies why and how socio-economic arrangements influence health. Our research concerns intersecting systems of racialized, political-economic domination, exploitation, and oppression. Currently, CSE's work focuses on the collateral public health consequences of mass criminalization, mass incarceration, and the school-to-prison pipeline, and how the division and structure of labor influence mental health and substance use. CSE is led by [Seth J. Prins](/people/seth), PhD MPH, Assistant Professor of Epidemiology and Sociomedical Sciences.   
+description: The Critical Social Epidemiology Research Collaborative (CSE) is led by [Seth J. Prins](/people/seth), PhD MPH, Assistant Professor of Epidemiology and Sociomedical Sciences at Columbia University's Mailman School of Public Health. We study how political-economic arrangements, power relations, racialized class conflict, and various forms of social control affect population health. Our research concerns intersecting systems of racialized domination, exploitation, and oppression. Currently, CSE's work focuses on the 1) collateral public health consequences of mass criminalization, mass incarceration, and the school-to-prison pipeline, and 2) how the division and structure of labor influence mental health and substance use.     
 image_left: false
 images:
 - img/home.png
