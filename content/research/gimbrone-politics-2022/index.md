@@ -11,8 +11,8 @@ categories: ["Class conflict and public health"]
 links:
 - icon: file-pdf
   icon-pack: fas
-  name: 
-  url: 
+  name: Download
+  url: pdf/gimbrone-politics-2022.pdf
 - icon: external-link-alt
   icon-pack: fas
   name: DOI

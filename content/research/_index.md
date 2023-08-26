@@ -6,6 +6,7 @@ cascade:
   show_comments: true
   show_post_date: true
   show_post_time: false
+  show_post_thumbnail: true
   sidebar:
     show_sidebar_adunit: false
     text_link_label: View recent talks
